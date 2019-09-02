@@ -1,0 +1,64 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "wonder speech obama",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "NumberIntent",
+          "slots": [
+            {
+              "name": "number",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "please {number} ",
+            "say {number}",
+            "number {number} ok",
+            "{number} please",
+            "number {number} please",
+            "number {number}",
+            "{number}"
+          ]
+        },
+        {
+          "name": "RandomIntent",
+          "slots": [],
+          "samples": [
+            "say random",
+            "next ok",
+            "random next",
+            "next please",
+            "next",
+            "random ok",
+            "go random",
+            "random please",
+            "random"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "1"
+}
